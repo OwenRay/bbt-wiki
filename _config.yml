@@ -1,19 +1,21 @@
 title: Baitboat Technology Wiki
 description: The wiki for BBT hardware and the Baitboat Autopilot app
-theme: just-the-docs
 
-# Sidebar + search config
+# Use remote theme (works on GitHub Pages without Gemfile changes)
+remote_theme: just-the-docs/just-the-docs
+
+# Project pages at https://owenray.github.io/bbt-wiki/
+url: "https://owenray.github.io"
+baseurl: "/bbt-wiki"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
 just_the_docs:
-  logo: "/assets/img/logo.png"  # optional
+  logo: "/assets/img/logo.png"   # optional, remove if you don't have it
   search_enabled: true
   heading_anchors: true
   nav_sort: case_insensitive
   aux_links:
-    GitHub Repo: https://github.com/OwenRay/bbt-wiki
-
-# Base URL (if you're not using a custom domain)
-baseurl: "/bbt-wiki"
-
-# Optional: GitHub Pages build config
-plugins:
-  - jekyll-seo-tag
+    "GitHub Repo": "https://github.com/OwenRay/bbt-wiki"
