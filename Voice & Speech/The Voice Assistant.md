@@ -1,5 +1,5 @@
 ---
-title: Baitboat Technology Wiki
+title: The Voice Assistant
 nav_order: 2
 ---
 
