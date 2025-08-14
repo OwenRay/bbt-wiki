@@ -19,16 +19,17 @@ The Baitboat Autopilot app is a sophisticated mobile application designed to con
 
 - **GPS Navigation**: Precise positioning and route planning
 - **Autopilot Functionality**: Set waypoints and let the boat navigate automatically
-- **Mapping Integration**: Compatible with various mapping systems including Raymarine
+- **3D Mapping**: Compatible with various mapping systems including Raymarine and Vexilar
+- **Offline**: All features available offline, make sure to download your region map ahead of time!
 - **Real-time Tracking**: Monitor your boat's position and movement in real-time
 - **Spot Marking**: Save and return to productive fishing spots
-- **Route Planning**: Create and save complex routes for future use
 - **Remote Control**: Manual control options when needed
 - **Battery Monitoring**: Keep track of your boat's battery status
+- **Voice Control**: Handsfree control of your boat by speaking
 
 ## BBT Hardware
 
-BBT (Baitboat Technology) hardware refers to the physical components and devices designed and manufactured by BBT. These are currently:
+BBT (Bait Boat Technology) hardware refers to the physical components and devices designed and manufactured by BBT. These are currently:
 
 - The Connector
 - The Injector
