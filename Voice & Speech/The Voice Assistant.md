@@ -10,7 +10,7 @@ This guide will help you set up your Android device to use the voice assistant f
 ## Prerequisites
 - Android device with Google services installed
 - Google app installed and updated
-- Baitboats app installed
+- Baitboat Autopilot app installed
 
 ## Step-by-Step Setup Guide
 
