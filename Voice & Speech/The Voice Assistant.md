@@ -2,6 +2,7 @@
 title: The Voice Assistant
 nav_order: 1
 parent: Voice & Speech
+has_toc: true
 ---
 
 # Setting Up Voice Assistant on Your Android Device for Baitboat Autopilot
