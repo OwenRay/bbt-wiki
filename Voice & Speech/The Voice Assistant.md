@@ -6,6 +6,8 @@ parent: Voice & Speech
 
 # Setting Up Voice Assistant on Your Android Device for Baitboat Autopilot
 
+{:toc}
+
 This guide will help you set up your Android device to use the voice assistant feature in the Baitboats app. Please note that **only English language is currently supported** for voice commands.
 
 ## Prerequisites

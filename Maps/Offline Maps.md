@@ -6,6 +6,8 @@ nav_order: 1
 
 # Offline Maps Guide for Baitboat Autopilot
 
+{:toc}
+
 ## Introduction
 
 This guide will help you understand how to use offline maps in your Baitboats app. Offline maps are very useful when
