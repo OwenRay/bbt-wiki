@@ -1,6 +1,7 @@
 ---
 title: The Voice Assistant
-nav_order: 2
+nav_order: 1
+parent: Voice & Speech
 ---
 
 # Setting Up Voice Assistant on Your Android Device for Baitboat Autopilot
