@@ -12,4 +12,5 @@ Maps are essential for navigation and planning your fishing trips. The Baitboat 
 
 ## Available Topics
 
+- [Bathymetric Depth Maps](Bathymetric%20Depth%20Maps.html) - Learn how to create and use detailed underwater terrain maps for finding the best fishing spots
 - [Offline Maps](Offline%20Maps.html) - Learn how to download and use maps offline for fishing in areas with poor internet connection
