@@ -2,12 +2,21 @@
 title: The Voice Assistant
 nav_order: 1
 parent: Voice & Speech
-has_toc: true
 ---
 
 # Setting Up Voice Assistant on Your Android Device for Baitboat Autopilot
 
-{:toc}
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Step-by-Step Setup Guide](#step-by-step-setup-guide)
+   - [1. Install Offline Voice Recognition Files](#1-install-offline-voice-recognition-files)
+   - [2. Enable Voice Assistant in Baitboats App](#2-enable-voice-assistant-in-baitboats-app)
+   - [3. Grant Microphone Permission](#3-grant-microphone-permission)
+   - [4. Test Voice Assistant](#4-test-voice-assistant)
+   - [5. Supported commands](#5-supported-commands)
+- [Troubleshooting](#troubleshooting)
+- [Important Note](#important-note)
 
 This guide will help you set up your Android device to use the voice assistant feature in the Baitboats app. Please note that **only English language is currently supported** for voice commands.
 

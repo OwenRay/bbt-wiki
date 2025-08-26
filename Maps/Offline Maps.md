@@ -6,7 +6,25 @@ nav_order: 1
 
 # Offline Maps Guide for Baitboat Autopilot
 
-{:toc}
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Types of Offline Maps](#types-of-offline-maps)
+- [Downloading Offline Maps](#downloading-offline-maps)
+   - [How to Download Region Maps](#how-to-download-region-maps)
+   - [How to Download Google Maps](#how-to-download-google-maps)
+- [Checking Download Progress](#checking-download-progress)
+   - [For Region Maps](#for-region-maps)
+   - [For Google Maps](#for-google-maps)
+- [When to Use Which Map Type](#when-to-use-which-map-type)
+   - [Use Region Maps When](#use-region-maps-when)
+   - [Use Google Maps When](#use-google-maps-when)
+- [Changing Map Order](#changing-map-order)
+   - [How to Change Map Order](#how-to-change-map-order)
+   - [What Map Order Means](#what-map-order-means)
+- [Important Notes](#important-notes)
+   - [About Satellite View](#about-satellite-view)
+   - [Tips for Best Performance](#tips-for-best-performance)
 
 ## Introduction
 
