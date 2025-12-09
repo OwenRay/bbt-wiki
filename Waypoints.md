@@ -171,7 +171,7 @@ Different icon colors can help you categorize your waypoints (e.g., yellow for s
 - **Name your waypoints descriptively**: Instead of "Spot 1," use names like "Deep Drop-off" or "North Reed"
 - **Use different icon colors** to categorize different types of fishing spots
 - **Set waypoint numbers** in a logical sequence if you plan to visit multiple spots in order
-- **Export your waypoints** regularly as a backup (Settings > Waypoints > Export)
+- **Export your waypoints** regularly as a backup (Settings > Waypoints > Export). See: [Import & Export → Export waypoints (.gpx)](/Import%20And%20Export.html#export-waypoints-gpx)
 - **Plan your route** by setting up multiple waypoints before heading out
 
 ## Troubleshooting

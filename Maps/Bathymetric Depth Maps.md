@@ -6,8 +6,6 @@ parent: Maps
 
 # Bathymetric Mapping Guide
 
-## Introduction
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -20,6 +18,8 @@ parent: Maps
 - [Managing Your Maps](#managing-your-maps)
 - [Tips for Better Mapping](#tips-for-better-mapping)
 - [Troubleshooting](#troubleshooting)
+
+## Introduction
 
 Welcome to the Mapping feature of your Baitboats app! This guide will help you understand how to create detailed bathymetric maps of your fishing waters. Bathymetric maps show the underwater terrain, including depths and contours, which can help you find the best fishing spots.
 
@@ -132,6 +132,9 @@ To save your mapping data for backup or sharing:
 3. Tap "Export Mapping Data"
 4. Choose a location to save the file
 
+For detailed, app-specific export instructions and file type info, see:
+- [Import & Export → Export depth maps (.bbtmap)](/Import%20And%20Export.html#export-depth-maps-bbtmap)
+
 ### Importing Maps
 
 To import saved mapping data:
@@ -140,6 +143,9 @@ To import saved mapping data:
 2. Scroll to the Depth Mapping section
 3. Tap "Import Mapping Data"
 4. Select the mapping data file you want to import
+
+More details and tips are available here:
+- [Import & Export → Import depth maps (.bbtmap)](/Import%20And%20Export.html#import-depth-maps-bbtmap)
 
 ### Deleting Maps
 
@@ -152,6 +158,8 @@ To remove the current depth map:
 
 > **Warning**: Deleting a map is permanent and cannot be undone. Always export your maps before deleting them if you think you might need them later.
 
+You can [export your maps here](/Import%20And%20Export.html#export-depth-maps-bbtmap).
+
 ## Tips for Better Mapping
 
 - Map during calm weather conditions for more accurate depth readings
@@ -159,6 +167,8 @@ To remove the current depth map:
 - Move in a grid pattern for the most complete coverage
 - Start with a small area to get familiar with the process
 - Export your maps regularly to avoid data loss
+
+Learn how to [export depth maps (.bbtmap)](/Import%20And%20Export.html#export-depth-maps-bbtmap).
 - Use lower boat speeds for more accurate depth readings
 - Focus on areas with interesting features like drop-offs or underwater structures
 
