@@ -121,6 +121,8 @@ Currently, satellite view and depth maps cannot be used together. If you want to
 - **Show depth map**: Toggles the visibility of your created depth maps
 - **Color scheme**: Choose different color patterns to represent depths
 
+> Note: For best performance, especially on devices with limited CPU or memory, disable mapping once you're satisfied with your current map. Turning off "Enable mapping" stops collecting new depth points but keeps your existing map visible if "Show depth map" is on. You can always re‑enable mapping later when you want to add more data.
+
 ## Managing Your Maps
 
 ### Exporting Maps
