@@ -13,7 +13,7 @@ nav_order: 1
 - [Downloading Offline Maps](#downloading-offline-maps)
    - [How to Download Region Maps](#how-to-download-region-maps)
    - [How to Download Google Maps](#how-to-download-google-maps)
-- [Checking Download Progress](#checking-download-progress)
+- [Checking Download Progress](#checking-download-progress-and-verification)
    - [For Region Maps](#for-region-maps)
    - [For Google Maps](#for-google-maps)
 - [When to Use Which Map Type](#when-to-use-which-map-type)
@@ -23,7 +23,7 @@ nav_order: 1
    - [How to Change Map Order](#how-to-change-map-order)
    - [What Map Order Means](#what-map-order-means)
 - [Important Notes](#important-notes)
-   - [About Satellite View](#about-satellite-view)
+   - [About Google Maps and Satellite View](#about-google-maps-and-satellite-view)
    - [Tips for Best Performance](#tips-for-best-performance)
 
 ## Introduction
@@ -40,6 +40,7 @@ you're fishing in areas with poor internet connection or when you want to save o
 | Show terrain features like hills, rivers, and lakes | Includes satellite view option             |
 | Are usually smaller in file size than Google Maps   | Cover the entire world                     |
 | Usually contain more details in the shape of waters | Are larger in file size than region maps   |
+|  | Are downloaded with a limited zoom level   |
 
 ## Downloading Offline Maps
 
@@ -58,13 +59,14 @@ you're fishing in areas with poor internet connection or when you want to save o
 2. Tap on "Offline Maps"
 3. Select "Google Maps"
 4. Navigate to the area you want to download
-5. Tap the download button
-6. Give your map area a name
-7. Tap "Save" to start the download
+6. Tap the download button
+   - **Note:** The app only downloads the map type you are currently viewing. If you want all three, you must download each one separately.
+7. Give your map area a name
+8. Tap "Save" to start the download
    - A progress dialog will show you how many tiles have been downloaded
    - The app will return to the main screen when the download is complete
 
-## Checking Download Progress
+## Checking Download Progress and Verification
 
 ### For Region Maps
 
@@ -77,7 +79,12 @@ you're fishing in areas with poor internet connection or when you want to save o
 
 * A progress dialog shows the number of tiles downloaded and the total number of tiles
 * You must keep the download screen open until the download completes
-* You can view your downloaded areas by tapping the menu icon in the Google Maps download screen
+* You can view and verify your downloaded areas:
+  1. Open the Google Maps download screen.
+  2. Tap the menu icon to see a list of saved areas.
+  3. Zoom in and out on the map. 
+  4. Downloaded areas are indicated by a **green circle with a checkmark**.
+  5. If you zoom in or out and the checkmarks disappear, it means that specific zoom level is not downloaded.
 
 ## When to Use Which Map Type
 
@@ -115,9 +122,10 @@ The app can use both map types and will automatically choose which one to displa
 
 ## Important Notes
 
-### About Satellite View:
+### About Google Maps and Satellite View:
 
-> **Important:** Satellite view is available only with Google Maps and is not currently supported for depth maps
+> **Important:** Satellite view is available only with Google Maps and is not currently supported for depth maps.
+>
 > {: .warning}
 
 ### Tips for Best Performance:
