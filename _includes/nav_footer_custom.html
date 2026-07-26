@@ -5,7 +5,7 @@
       {% if lang == site.active_lang %}
         <strong>{{ site.data.lang_names[lang] }}</strong>
       {% else %}
-        <a {% static_href %}href="{{ lang_url }}"{% endstatic_href %}>{{ site.data.lang_names[lang] }}</a>
+        <a href="{{ lang_url }}">{{ site.data.lang_names[lang] }}</a>
       {% endif %}
     {% else %}
       <span class="lang-disabled" title="Not translated yet" style="opacity: 0.5;">{{ site.data.lang_names[lang] }}</span>
