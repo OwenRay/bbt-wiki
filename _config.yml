@@ -10,6 +10,13 @@ baseurl: ""
 plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
+  - jekyll-polyglot
+
+# Multilanguage (jekyll-polyglot) configuration.
+languages: ["en", "de", "fr", "nl"]
+default_lang: "en"
+exclude_from_localization: ["assets", "CNAME", "_config.yml"]
+parallel_localization: false
 
 just_the_docs:
   logo: "/assets/logo.png"   # remove if you don't have it yet
@@ -18,3 +25,9 @@ just_the_docs:
   nav_sort: case_insensitive
   aux_links:
     "GitHub Repo": "https://github.com/OwenRay/bbt-wiki"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

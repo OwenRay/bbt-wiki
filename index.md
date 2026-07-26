@@ -1,6 +1,8 @@
 ---
 title: Baitboat Technology Wiki
 nav_order: 1
+lang: en
+page_id: home
 ---
 
 # Welcome to the Baitboat Technology Wiki

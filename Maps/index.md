@@ -2,6 +2,8 @@
 title: Maps
 nav_order: 3
 has_children: true
+lang: en
+page_id: maps-index
 ---
 
 # Maps

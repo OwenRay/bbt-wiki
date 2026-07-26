@@ -2,6 +2,8 @@
 title: Bathymetric Mapping Guide
 nav_order: 1
 parent: Maps
+lang: en
+page_id: maps-bathymetric
 ---
 
 # Bathymetric Mapping Guide

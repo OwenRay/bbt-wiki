@@ -1,6 +1,8 @@
 ---
 title: Waypoints
 nav_order: 5
+lang: en
+page_id: waypoints
 ---
 
 # Waypoints Guide

@@ -1,0 +1,18 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+.bundle/
+vendor/
+# Keep Gemfile.lock out of git: the gemset includes platform-specific
+# native binaries (sass-embedded) that differ between macOS (local) and
+# Linux (CI). Let CI resolve fresh via `bundle install`.
+Gemfile.lock
+
+# OS / editor noise
+.DS_Store
+
+# IDE
+.idea/

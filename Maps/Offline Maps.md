@@ -2,6 +2,8 @@
 title: Offline Maps For Baitboat Autopilot
 parent: Maps
 nav_order: 1
+lang: en
+page_id: maps-offline
 ---
 
 # Offline Maps Guide for Baitboat Autopilot

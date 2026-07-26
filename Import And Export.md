@@ -1,6 +1,8 @@
 ---
 title: Saving and Restoring Waypoints and Depth Maps
 nav_order: 6
+lang: en
+page_id: import-export
 ---
 
 # Saving and Restoring Waypoints and Depth Maps

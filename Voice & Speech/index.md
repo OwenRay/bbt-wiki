@@ -2,6 +2,8 @@
 title: Voice & Speech
 nav_order: 4
 has_children: true
+lang: en
+page_id: voice-index
 ---
 
 # Voice & Speech

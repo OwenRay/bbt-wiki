@@ -1,0 +1,15 @@
+<div class="lang-switcher" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e5e5e5); font-size: 0.8rem;">
+  {% for lang in site.languages %}
+    {% if page.permalink_lang and page.permalink_lang[lang] %}
+      {% capture lang_url %}{{ site.baseurl }}{% if lang != site.default_lang %}/{{ lang }}{% endif %}{{ page.permalink_lang[lang] }}{% endcapture %}
+      {% if lang == site.active_lang %}
+        <strong>{{ site.data.lang_names[lang] }}</strong>
+      {% else %}
+        <a {% static_href %}href="{{ lang_url }}"{% endstatic_href %}>{{ site.data.lang_names[lang] }}</a>
+      {% endif %}
+    {% else %}
+      <span class="lang-disabled" title="Not translated yet" style="opacity: 0.5;">{{ site.data.lang_names[lang] }}</span>
+    {% endif %}
+    {% unless forloop.last %}&nbsp;|&nbsp;{% endunless %}
+  {% endfor %}
+</div>
