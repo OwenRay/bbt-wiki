@@ -1,15 +1,50 @@
-<div class="lang-switcher" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e5e5e5); font-size: 0.8rem;">
+<div class="lang-switcher-topright">
   {% for lang in site.languages %}
     {% if page.permalink_lang and page.permalink_lang[lang] %}
       {% capture lang_url %}{{ site.baseurl }}{% if lang != site.default_lang %}/{{ lang }}{% endif %}{{ page.permalink_lang[lang] }}{% endcapture %}
       {% if lang == site.active_lang %}
-        <strong>{{ site.data.lang_names[lang] }}</strong>
+        <span class="lang-flag lang-flag-active" title="{{ site.data.lang_names[lang] }}">{{ site.data.lang_flags[lang] }}</span>
       {% else %}
-        <a href="{{ lang_url }}">{{ site.data.lang_names[lang] }}</a>
+        <a class="lang-flag" href="{{ lang_url }}" title="{{ site.data.lang_names[lang] }}">{{ site.data.lang_flags[lang] }}</a>
       {% endif %}
     {% else %}
-      <span class="lang-disabled" title="Not translated yet" style="opacity: 0.5;">{{ site.data.lang_names[lang] }}</span>
+      <span class="lang-flag lang-flag-disabled" title="{{ site.data.lang_names[lang] }} (not translated yet)">{{ site.data.lang_flags[lang] }}</span>
     {% endif %}
-    {% unless forloop.last %}&nbsp;|&nbsp;{% endunless %}
   {% endfor %}
 </div>
+
+<style>
+  .lang-switcher-topright {
+    position: fixed;
+    top: 0.75rem;
+    right: 1rem;
+    z-index: 999;
+    display: flex;
+    gap: 0.4rem;
+    background: var(--body-background-color, #fff);
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  }
+  .lang-switcher-topright .lang-flag {
+    font-size: 1.1rem;
+    line-height: 1;
+    text-decoration: none;
+    opacity: 0.55;
+    filter: grayscale(40%);
+    transition: opacity 0.15s ease, filter 0.15s ease;
+  }
+  .lang-switcher-topright .lang-flag:hover {
+    opacity: 1;
+    filter: none;
+  }
+  .lang-switcher-topright .lang-flag-active {
+    opacity: 1;
+    filter: none;
+  }
+  .lang-switcher-topright .lang-flag-disabled {
+    cursor: default;
+    opacity: 0.25;
+    filter: grayscale(100%);
+  }
+</style>
