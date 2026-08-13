@@ -1,50 +1,11 @@
-<div class="lang-switcher-topright">
-  {% for lang in site.languages %}
-    {% if page.permalink_lang and page.permalink_lang[lang] %}
-      {% capture lang_url %}{{ site.baseurl }}{% if lang != site.default_lang %}/{{ lang }}{% endif %}{{ page.permalink_lang[lang] }}{% endcapture %}
-      {% if lang == site.active_lang %}
-        <span class="lang-flag lang-flag-active" title="{{ site.data.lang_names[lang] }}">{{ site.data.lang_flags[lang] }}</span>
-      {% else %}
-        <a class="lang-flag" href="{{ lang_url }}" title="{{ site.data.lang_names[lang] }}">{{ site.data.lang_flags[lang] }}</a>
-      {% endif %}
-    {% else %}
-      <span class="lang-flag lang-flag-disabled" title="{{ site.data.lang_names[lang] }} (not translated yet)">{{ site.data.lang_flags[lang] }}</span>
-    {% endif %}
-  {% endfor %}
-</div>
+<!-- Language switcher moved to _includes/footer_custom.html.
 
-<style>
-  .lang-switcher-topright {
-    position: fixed;
-    top: 0.75rem;
-    right: 1rem;
-    z-index: 999;
-    display: flex;
-    gap: 0.4rem;
-    background: var(--body-background-color, #fff);
-    padding: 0.25rem 0.5rem;
-    border-radius: 6px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  }
-  .lang-switcher-topright .lang-flag {
-    font-size: 1.1rem;
-    line-height: 1;
-    text-decoration: none;
-    opacity: 0.55;
-    filter: grayscale(40%);
-    transition: opacity 0.15s ease, filter 0.15s ease;
-  }
-  .lang-switcher-topright .lang-flag:hover {
-    opacity: 1;
-    filter: none;
-  }
-  .lang-switcher-topright .lang-flag-active {
-    opacity: 1;
-    filter: none;
-  }
-  .lang-switcher-topright .lang-flag-disabled {
-    cursor: default;
-    opacity: 0.25;
-    filter: grayscale(100%);
-  }
-</style>
+     The theme renders this include inside <header class="side-bar"> (desktop)
+     and in the page footer (mobile). A position: fixed switcher nested inside
+     the fixed side-bar is hit-tested at the side-bar's stacking level, so its
+     z-index could not beat the main region's search bar and the flags were
+     unclickable on desktop. footer_custom.html renders at body level (no fixed
+     ancestors) where the fixed positioning and z-index work at every size.
+
+     This comment must stay non-empty: the theme shows its fallback footer
+     text ("This site uses Just the Docs") when this include renders empty. -->
