@@ -37,6 +37,7 @@ BBT-hardware (Bait Boat Technology) verwijst naar de fysieke componenten en appa
 - The Connector
 - The Injector
 - The All-In-One System
+- [BBT Core](/BBT%20Core.html)
 
 ## Aan de slag
 

@@ -37,6 +37,7 @@ BBT (Bait Boat Technology) Hardware bezeichnet die physischen Komponenten und Ge
 - The Connector
 - The Injector
 - The All-In-One System
+- [BBT Core](/BBT%20Core.html)
 
 ## Erste Schritte
 

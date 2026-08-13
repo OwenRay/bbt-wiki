@@ -1,0 +1,104 @@
+---
+title: BBT Core – Installatie en koppeling
+nav_order: 2
+lang: nl
+page_id: bbt-core
+permalink: "/BBT Core.html"
+---
+
+# BBT Core – Installatie en koppeling
+
+*Gebruikershandleiding voor installatie, koppeling en gebruik*
+
+**BBT Core – Het ultieme brein voor je baitboat.** Een praktische gids voor het aansluiten van de BBT Core, het koppelen met Raymarine, het installeren van de WiFish-app en het dagelijks gebruik ervan.
+
+![BBT Core – Het ultieme brein voor je baitboat](/assets/bbt_core_cover.png)
+
+## Inhoudsopgave
+
+- [1. De BBT Core aansluiten](#1-de-bbt-core-aansluiten)
+- [2. De standaard Wi-Fish-app verwijderen (indien geïnstalleerd)](#2-de-standaard-wi-fish-app-verwijderen-indien-geïnstalleerd)
+- [3. De BBT Core koppelen met Raymarine](#3-de-bbt-core-koppelen-met-raymarine)
+- [4. De speciale Wi-Fish-app downloaden](#4-de-speciale-wi-fish-app-downloaden)
+- [5. Gebruik](#5-gebruik)
+- [6. Overzicht van de overige verbindingen](#6-overzicht-van-de-overige-verbindingen)
+
+## 1. De BBT Core aansluiten
+
+1. Sluit de voeding aan (5 tot 24 V).
+2. Verbind de **WAN**-uitgang van de BBT Core met de **LAN**-ingang van de Skydroid GR01.
+
+![Voeding van de BBT Core (5–24 V)](/assets/bbt_core_power_supply.jpg)
+
+![WAN-uitgang van de BBT Core, verbonden met de LAN-ingang van de Skydroid GR01](/assets/bbt_core_wan_lan.jpg)
+
+## 2. De standaard Wi-Fish-app verwijderen (indien geïnstalleerd)
+
+1. Open **Instellingen**.
+2. Ga naar **Apps**.
+3. Selecteer de **WiFish-app**.
+4. Tik op **Verwijderen**.
+
+## 3. De BBT Core koppelen met Raymarine
+
+1. Open de **BaitBoat Autopilot**-app.
+2. Controleer onder **Help** dat u minimaal versie 1.470 gebruikt.
+3. Controleer dat u verbonden bent via **Skydroid Connect**.
+4. Ga naar **Boat Setup**.
+5. Ga naar **BBT Core**.
+6. Vink het vakje aan voor **Skydroid G-Series**.
+7. Stel **Transmit Power** in op **1 dB**.
+8. Ga naar **Pair WiFi Device**.
+9. Zoek **Raymarine** en tik erop.
+10. Voer het wachtwoord in en bevestig.
+11. Tik op **NEXT**.
+12. Wacht tot u het bericht ontvangt dat de configuratie succesvol is voltooid.
+13. Tik op **CLOSE**.
+14. Start alles opnieuw op: zowel de BBT Core als de Skydroid-handzender.
+
+## 4. De speciale Wi-Fish-app downloaden
+
+1. Controleer dat u verbonden bent met het internet.
+2. Start de **BaitBoat Autopilot**-app.
+3. Ga naar **Boat Set-up**.
+4. Selecteer **BBT Core**.
+5. Tik op **Install WiFish App**.
+6. Tik op **INSTALL**.
+7. Veeg vanaf het midden van de bovenrand van het scherm naar beneden.
+
+![Naar beneden vegen vanaf de bovenkant van het scherm, beginnend in het midden](/assets/wifish_swipe_down.png)
+
+8. Tik op **Download complete**.
+
+![Melding „Download complete“ voor de Raymarine Wi-Fish-app](/assets/wifish_download_complete.png)
+
+9. Tik op **Install**.
+
+![Dialoogvenster „Do you want to install this app?“ – Wi-Fish](/assets/wifish_install.png)
+
+10. Selecteer **More details**.
+
+![Google Play Protect – „Unsafe app blocked“](/assets/wifish_more_details.png)
+
+11. Tik op **Install anyway**.
+
+![Google Play Protect – „Install anyway“](/assets/wifish_install_anyway.png)
+
+12. Sluit de Raymarine-app.
+
+De installatie is voltooid.
+
+## 5. Gebruik
+
+> **Opmerking:** tijdens het eerste gebruik kan de Raymarine-verbinding af en toe kort wegvallen. In de meeste gevallen wordt de verbinding binnen één seconde automatisch hersteld. Dit komt doordat het Skydroid-protocol automatisch zoekt naar de meest geschikte bandbreedte. Tijdens dit zoeken kan de verbinding tijdelijk worden onderbroken. Wacht rustig tot de verbinding stabiel blijft.
+
+## 6. Overzicht van de overige verbindingen
+
+![Overzicht van de aansluitingen van de BBT Core](/assets/bbt_core_connections.png)
+
+> **Opmerking:** de kompasaansluiting en -kalibratie zijn nog in ontwikkeling.
+
+- De cameraverbindingen werken.
+- De WiFi-communicatie werkt.
+- De GPS-antenneverbinding werkt.
+- Het kompas is nog in ontwikkeling.

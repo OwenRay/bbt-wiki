@@ -37,6 +37,7 @@ Le matériel BBT (Bait Boat Technology) désigne les composants physiques et app
 - The Connector
 - The Injector
 - The All-In-One System
+- [BBT Core](/BBT%20Core.html)
 
 ## Premiers pas
 

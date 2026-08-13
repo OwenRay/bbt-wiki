@@ -1,0 +1,104 @@
+---
+title: BBT Core – Installation et appairage
+nav_order: 2
+lang: fr
+page_id: bbt-core
+permalink: "/BBT Core.html"
+---
+
+# BBT Core – Installation et appairage
+
+*Manuel d'utilisation pour l'installation, l'appairage et l'utilisation*
+
+**BBT Core – Le cerveau ultime du baitboat.** Un guide pratique pour connecter le BBT Core, l'appairer avec Raymarine, installer l'application WiFish et l'utiliser au quotidien.
+
+![BBT Core – Le cerveau ultime du baitboat](/assets/bbt_core_cover.png)
+
+## Table des matières
+
+- [1. Connexion du BBT Core](#1-connexion-du-bbt-core)
+- [2. Suppression de l'application Wi-Fish standard (si installée)](#2-suppression-de-lapplication-wi-fish-standard-si-installée)
+- [3. Appairage du BBT Core avec Raymarine](#3-appairage-du-bbt-core-avec-raymarine)
+- [4. Téléchargement de l'application Wi-Fish spéciale](#4-téléchargement-de-lapplication-wi-fish-spéciale)
+- [5. Utilisation](#5-utilisation)
+- [6. Aperçu des autres connexions](#6-aperçu-des-autres-connexions)
+
+## 1. Connexion du BBT Core
+
+1. Branchez l'alimentation électrique (5 à 24 V).
+2. Connectez la sortie **WAN** du BBT Core à l'entrée **LAN** du Skydroid GR01.
+
+![Alimentation du BBT Core (5–24 V)](/assets/bbt_core_power_supply.jpg)
+
+![Sortie WAN du BBT Core connectée à l'entrée LAN du Skydroid GR01](/assets/bbt_core_wan_lan.jpg)
+
+## 2. Suppression de l'application Wi-Fish standard (si installée)
+
+1. Ouvrez **Paramètres**.
+2. Allez dans **Applications**.
+3. Sélectionnez l'**application WiFish**.
+4. Touchez **Supprimer**.
+
+## 3. Appairage du BBT Core avec Raymarine
+
+1. Ouvrez l'application **BaitBoat Autopilot**.
+2. Sous **Aide**, vérifiez que vous utilisez au moins la version 1.470.
+3. Vérifiez que vous êtes connecté via **Skydroid Connect**.
+4. Allez dans **Boat Setup**.
+5. Allez dans **BBT Core**.
+6. Cochez la case **Skydroid G-Series**.
+7. Réglez **Transmit Power** sur **1 dB**.
+8. Allez dans **Pair WiFi Device**.
+9. Recherchez **Raymarine** et touchez-le.
+10. Saisissez le mot de passe et confirmez.
+11. Touchez **NEXT**.
+12. Attendez de recevoir le message indiquant que la configuration a été terminée avec succès.
+13. Touchez **CLOSE**.
+14. Redémarrez tout : le BBT Core et l'émetteur portable Skydroid.
+
+## 4. Téléchargement de l'application Wi-Fish spéciale
+
+1. Vérifiez que vous êtes connecté à Internet.
+2. Lancez l'application **BaitBoat Autopilot**.
+3. Allez dans **Boat Set-up**.
+4. Sélectionnez **BBT Core**.
+5. Touchez **Install WiFish App**.
+6. Touchez **INSTALL**.
+7. Balayez vers le bas depuis le haut de l'écran, en partant du milieu de l'écran.
+
+![Balayage vers le bas depuis le haut de l'écran, en partant du milieu](/assets/wifish_swipe_down.png)
+
+8. Touchez **Download complete**.
+
+![Notification « Download complete » pour l'application Raymarine Wi-Fish](/assets/wifish_download_complete.png)
+
+9. Touchez **Install**.
+
+![Boîte de dialogue « Do you want to install this app? » – Wi-Fish](/assets/wifish_install.png)
+
+10. Sélectionnez **More details**.
+
+![Google Play Protect – « Unsafe app blocked »](/assets/wifish_more_details.png)
+
+11. Touchez **Install anyway**.
+
+![Google Play Protect – « Install anyway »](/assets/wifish_install_anyway.png)
+
+12. Fermez l'application Raymarine.
+
+L'installation est terminée.
+
+## 5. Utilisation
+
+> **Remarque :** lors de la première utilisation, la connexion Raymarine peut être interrompue brièvement à quelques reprises. Dans la plupart des cas, la connexion est rétablie automatiquement en moins d'une seconde. Cela se produit parce que le protocole Skydroid recherche automatiquement la bande passante la plus adaptée. Pendant cette recherche, la connexion peut être temporairement interrompue. Attendez calmement que la connexion redevienne stable.
+
+## 6. Aperçu des autres connexions
+
+![Aperçu des connexions du BBT Core](/assets/bbt_core_connections.png)
+
+> **Remarque :** la connexion et l'étalonnage de la boussole sont encore en cours de développement.
+
+- Les connexions de caméra fonctionnent.
+- La communication WiFi fonctionne.
+- La connexion de l'antenne GPS fonctionne.
+- La boussole est encore en cours de développement.
