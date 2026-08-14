@@ -35,6 +35,18 @@
     border-radius: 6px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
   }
+  /* Mobile (< 50rem): the theme's hamburger (#menu-button) sits at the
+     top-right of the header, exactly where this fixed pill used to land —
+     the opaque white pill hid the menu button and swallowed its clicks
+     (elementFromPoint at the hamburger's center returned a lang-flag).
+     Pin the pill to the bottom-right corner on mobile; desktop keeps the
+     top-right placement. */
+  @media (max-width: 49.99rem) {
+    .lang-switcher-topright {
+      top: auto;
+      bottom: 1rem;
+    }
+  }
   .lang-switcher-topright .lang-flag {
     font-size: 1.1rem;
     line-height: 1;
