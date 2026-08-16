@@ -22,6 +22,7 @@ permalink: "/BBT Core.html"
 - [4. De speciale Wi-Fish-app downloaden](#4-de-speciale-wi-fish-app-downloaden)
 - [5. Gebruik](#5-gebruik)
 - [6. Overzicht van de overige verbindingen](#6-overzicht-van-de-overige-verbindingen)
+- [7. Bouwersmodus via servicecode](#7-bouwersmodus-via-servicecode)
 
 ## 1. De BBT Core aansluiten
 
@@ -102,3 +103,14 @@ De installatie is voltooid.
 - De WiFi-communicatie werkt.
 - De GPS-antenneverbinding werkt.
 - Het kompas is nog in ontwikkeling.
+
+## 7. Bouwersmodus via servicecode
+
+Bij het instellen van de BBT Core bevat de tablet of Skydroid soms niet het bouwersaccount (bijvoorbeeld op een vers geconfigureerd apparaat). In dat geval kun je de **volledige bouwersmodus** toch ontgrendelen met een servicecode.
+
+1. Open de **BaitBoat Autopilot**-app.
+2. Ga naar het tabblad **Help/Feedback**.
+3. Tik op **Servicecode**.
+4. Voer de servicecode in en bevestig.
+
+Een geldige servicecode ontgrendelt de volledige bouwersmodus (Real Builder). Servicecodes worden verstrekt door Baitboat — neem contact met ons op om er een aan te vragen. Bouwers kunnen de servicecode van vandaag ook in de app bekijken: deze wordt onder de knop **Servicecode** weergegeven zolang de bouwersmodus actief is.

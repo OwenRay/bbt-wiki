@@ -22,6 +22,7 @@ permalink: "/BBT Core.html"
 - [4. Téléchargement de l'application Wi-Fish spéciale](#4-téléchargement-de-lapplication-wi-fish-spéciale)
 - [5. Utilisation](#5-utilisation)
 - [6. Aperçu des autres connexions](#6-aperçu-des-autres-connexions)
+- [7. Mode constructeur via un code de service](#7-mode-constructeur-via-un-code-de-service)
 
 ## 1. Connexion du BBT Core
 
@@ -102,3 +103,14 @@ L'installation est terminée.
 - La communication WiFi fonctionne.
 - La connexion de l'antenne GPS fonctionne.
 - La boussole est encore en cours de développement.
+
+## 7. Mode constructeur via un code de service
+
+Lors de la configuration du BBT Core, la tablette ou le Skydroid ne contient parfois pas le compte constructeur (par exemple sur un appareil fraîchement configuré). Dans ce cas, vous pouvez toujours déverrouiller le **mode constructeur complet** avec un code de service.
+
+1. Ouvrez l'application **BaitBoat Autopilot**.
+2. Allez dans l'onglet **Aide / Commentaires**.
+3. Touchez **Code de service**.
+4. Saisissez le code de service et confirmez.
+
+Un code de service valide déverrouille le mode constructeur complet (Real Builder). Les codes de service sont fournis par Baitboat — contactez-nous pour en demander un. Les constructeurs peuvent également consulter le code du jour dans l'application : il s'affiche sous le bouton **Code de service** tant que le mode constructeur est actif.

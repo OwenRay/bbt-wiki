@@ -21,6 +21,7 @@ page_id: bbt-core
 - [4. Downloading the Special Wi-Fish App](#4-downloading-the-special-wi-fish-app)
 - [5. Use](#5-use)
 - [6. Overview of Other Connections](#6-overview-of-other-connections)
+- [7. Builder Mode via Service Code](#7-builder-mode-via-service-code)
 
 ## 1. Connecting the BBT Core
 
@@ -101,3 +102,14 @@ The installation is complete.
 - WiFi communication is functioning.
 - GPS antenna connection is functioning.
 - Compass is still under development.
+
+## 7. Builder Mode via Service Code
+
+When setting up the BBT Core, the tablet or Skydroid sometimes does not contain the builder's account (for example on a freshly configured device). In that case you can still unlock **full builder mode** with a service code.
+
+1. Open the **BaitBoat Autopilot** app.
+2. Go to the **Help/Feedback** tab.
+3. Tap **Service Code**.
+4. Enter the service code and confirm.
+
+A valid service code unlocks full builder mode (Real Builder). Service codes are provided by Baitboat — contact us to request one. Builders can also view today's service code in the app: it is shown below the **Service Code** button while builder mode is active.

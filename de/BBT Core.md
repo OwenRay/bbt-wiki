@@ -22,6 +22,7 @@ permalink: "/BBT Core.html"
 - [4. Herunterladen der speziellen Wi-Fish-App](#4-herunterladen-der-speziellen-wi-fish-app)
 - [5. Nutzung](#5-nutzung)
 - [6. Übersicht der weiteren Verbindungen](#6-übersicht-der-weiteren-verbindungen)
+- [7. Baumodus per Servicecode](#7-baumodus-per-servicecode)
 
 ## 1. Anschließen des BBT Core
 
@@ -102,3 +103,14 @@ Die Installation ist abgeschlossen.
 - Die WiFi-Kommunikation funktioniert.
 - Die GPS-Antennenverbindung funktioniert.
 - Der Kompass befindet sich noch in der Entwicklung.
+
+## 7. Baumodus per Servicecode
+
+Bei der Einrichtung des BBT Core enthält das Tablet oder der Skydroid manchmal kein Bauerkonto (zum Beispiel auf einem frisch konfigurierten Gerät). In diesem Fall können Sie den **vollen Baumodus** trotzdem mit einem Servicecode freischalten.
+
+1. Öffnen Sie die **BaitBoat Autopilot**-App.
+2. Gehen Sie zum Tab **Hilfe/Feedback**.
+3. Tippen Sie auf **Servicecode**.
+4. Geben Sie den Servicecode ein und bestätigen Sie.
+
+Ein gültiger Servicecode schaltet den vollen Baumodus frei (Real Builder). Servicecodes werden von Baitboat bereitgestellt – kontaktieren Sie uns, um einen anzufordern. Wer den Baumodus aktiviert hat, kann den heutigen Servicecode auch in der App einsehen: Er wird unter dem Button **Servicecode** angezeigt, solange der Baumodus aktiv ist.
