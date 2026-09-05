@@ -114,3 +114,17 @@ Bij het instellen van de BBT Core bevat de tablet of Skydroid soms niet het bouw
 4. Voer de servicecode in en bevestig.
 
 Een geldige servicecode ontgrendelt de volledige bouwersmodus (Real Builder). Servicecodes worden verstrekt door Baitboat — neem contact met ons op om er een aan te vragen. Bouwers kunnen de servicecode van vandaag ook in de app bekijken: deze wordt onder de knop **Servicecode** weergegeven zolang de bouwersmodus actief is.
+
+## 8. Checklist voor bootbouwers
+
+Loop deze checklist af voordat je een boot met Skydroid aan de klant overdraagt.
+
+1. **Bekabeling** — BBT Core-voeding aangesloten (5–24 V) en de **WAN**-uitgang van de BBT Core verbonden met de **LAN**-ingang van de Skydroid GR01.
+2. **Koppeling** — BBT Core gekoppeld met Raymarine (zie sectie 3): **Skydroid G-Series** aangevinkt, **Zendvermogen** op 1 dB, en daarna zowel de BBT Core als de Skydroid-handzender herstart.
+3. **Wi-Fish-app** — de speciale Wi-Fish-app geïnstalleerd via **Boat Setup → BBT Core → Install WiFish App** (zie sectie 4).
+4. **Vaartest** — met de boot op een bok elke motor kort aansturen met de Skydroid-sticks en controleren of de draairichting en de roerrespons kloppen voor deze boot (zie de [Ardupilot-gids voor motor- en servotest](https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html#rover-motor-and-servo-configuration-testing)). Bij tweetaktboten beide motoren controleren.
+5. **Verbindingscontrole** — de boot enkele minuten verbonden laten en controleren dat de **Skydroid Connect**-verbinding stabiel blijft (enkele korte onderbrekingen in de eerste minuten zijn normaal — zie sectie 5).
+6. **Bouwersmodus** — als het apparaat het bouwersaccount mist, ontgrendel het dan met een servicecode (zie sectie 7) en draag de boot daarna over in klantmodus.
+7. **Laatste herstart** — herstart de BBT Core en de Skydroid één laatste keer en controleer dat de boot meteen verbindt.
+
+Als alles is afgevinkt, is de boot klaar voor de klant.

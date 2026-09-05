@@ -114,3 +114,17 @@ Lors de la configuration du BBT Core, la tablette ou le Skydroid ne contient par
 4. Saisissez le code de service et confirmez.
 
 Un code de service valide déverrouille le mode constructeur complet (Real Builder). Les codes de service sont fournis par Baitboat — contactez-nous pour en demander un. Les constructeurs peuvent également consulter le code du jour dans l'application : il s'affiche sous le bouton **Code de service** tant que le mode constructeur est actif.
+
+## 8. Checklist pour les constructeurs
+
+Parcourez cette checklist avant de remettre un bateau équipé d'un Skydroid au client.
+
+1. **Câblage** — alimentation du BBT Core branchée (5–24 V) et sortie **WAN** du BBT Core reliée à l'entrée **LAN** du Skydroid GR01.
+2. **Appairage** — BBT Core appairé avec Raymarine (voir section 3) : **Skydroid G-Series** coché, **Puissance d'émission** à 1 dB, puis redémarrage du BBT Core et de l'émetteur Skydroid.
+3. **Application Wi-Fish** — l'application Wi-Fish spéciale installée via **Boat Setup → BBT Core → Install WiFish App** (voir section 4).
+4. **Test de navigation** — bateau sur banc, actionner brièvement chaque moteur avec les sticks du Skydroid et vérifier que le sens de rotation et la réponse du gouvernail sont corrects pour ce bateau (voir le [guide Ardupilot de test moteur et servo](https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html#rover-motor-and-servo-configuration-testing)). Sur les bateaux bimoteurs, vérifier les deux moteurs.
+5. **Vérification de la connexion** — laisser le bateau connecté quelques minutes et confirmer que le lien **Skydroid Connect** reste stable (quelques brèves coupures pendant les premières minutes sont normales — voir section 5).
+6. **Mode constructeur** — si l'appareil n'a pas le compte constructeur, le déverrouiller avec un code de service (voir section 7), puis remettre le bateau en mode client.
+7. **Dernier redémarrage** — redémarrer une dernière fois le BBT Core et le Skydroid et vérifier que le bateau se connecte immédiatement.
+
+Une fois tout coché, le bateau est prêt pour le client.

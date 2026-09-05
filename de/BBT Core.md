@@ -114,3 +114,17 @@ Bei der Einrichtung des BBT Core enthält das Tablet oder der Skydroid manchmal 
 4. Geben Sie den Servicecode ein und bestätigen Sie.
 
 Ein gültiger Servicecode schaltet den vollen Baumodus frei (Real Builder). Servicecodes werden von Baitboat bereitgestellt – kontaktieren Sie uns, um einen anzufordern. Wer den Baumodus aktiviert hat, kann den heutigen Servicecode auch in der App einsehen: Er wird unter dem Button **Servicecode** angezeigt, solange der Baumodus aktiv ist.
+
+## 8. Checkliste für Bootsbauer
+
+Gehen Sie diese Checkliste durch, bevor Sie ein Boot mit Skydroid an den Kunden übergeben.
+
+1. **Verkabelung** — BBT-Core-Stromversorgung angeschlossen (5–24 V) und der **WAN**-Ausgang des BBT Core mit dem **LAN**-Eingang des Skydroid GR01 verbunden.
+2. **Kopplung** — BBT Core mit Raymarine gekoppelt (siehe Abschnitt 3): **Skydroid G-Series** angehakt, **Sendeleistung** auf 1 dB, danach BBT Core und Skydroid-Handsender neu gestartet.
+3. **Wi-Fish-App** — die spezielle Wi-Fish-App über **Boat Setup → BBT Core → Install WiFish App** installiert (siehe Abschnitt 4).
+4. **Fahrttest** — bei Boot auf dem Ständer kurz jeden Motor mit den Skydroid-Sticks antreiben und prüfen, ob Drehrichtung und Ruderantwort für dieses Boot stimmen (siehe [Ardupilot-Anleitung für Motor- und Servotest](https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html#rover-motor-and-servo-configuration-testing)). Bei Zweimotor-Booten beide Motoren prüfen.
+5. **Verbindungsprüfung** — das Boot einige Minuten verbunden lassen und bestätigen, dass die **Skydroid-Connect**-Verbindung stabil bleibt (einige kurze Unterbrechungen in den ersten Minuten sind normal — siehe Abschnitt 5).
+6. **Baumodus** — fehlt auf dem Gerät das Bauerkonto, mit einem Servicecode freischalten (siehe Abschnitt 7) und das Boot danach im Kundenmodus übergeben.
+7. **Letzter Neustart** — BBT Core und Skydroid ein letztes Mal neu starten und prüfen, dass sich das Boot sofort verbindet.
+
+Wenn alles abgehakt ist, ist das Boot bereit für den Kunden.

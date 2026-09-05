@@ -22,6 +22,7 @@ page_id: bbt-core
 - [5. Use](#5-use)
 - [6. Overview of Other Connections](#6-overview-of-other-connections)
 - [7. Builder Mode via Service Code](#7-builder-mode-via-service-code)
+- [8. Checklist for Boatbuilders](#8-checklist-for-boatbuilders)
 
 ## 1. Connecting the BBT Core
 
@@ -113,3 +114,17 @@ When setting up the BBT Core, the tablet or Skydroid sometimes does not contain 
 4. Enter the service code and confirm.
 
 A valid service code unlocks full builder mode (Real Builder). Service codes are provided by Baitboat — contact us to request one. Builders can also view today's service code in the app: it is shown below the **Service Code** button while builder mode is active.
+
+## 8. Checklist for Boatbuilders
+
+Run through this checklist before handing a Skydroid-equipped boat to the customer.
+
+1. **Wiring** — BBT Core power connected (5–24 V) and the BBT Core **WAN** output wired to the **LAN** input of the Skydroid GR01.
+2. **Pairing** — BBT Core paired with Raymarine (see section 3): **Skydroid G-Series** ticked, **Transmit Power** at 1 dB, and both the BBT Core and the Skydroid handheld restarted afterwards.
+3. **Wi-Fish app** — the special Wi-Fish app installed via **Boat Setup → BBT Core → Install WiFish App** (see section 4).
+4. **Steering test** — with the boat on a stand, drive each motor briefly with the Skydroid sticks and confirm the direction and the rudder response are correct for this boat (see the [Ardupilot motor and servo test guide](https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html#rover-motor-and-servo-configuration-testing)). On twin-motor boats, check both motors.
+5. **Connection check** — leave the boat connected for a few minutes and confirm the **Skydroid Connect** link stays stable (a few brief drops in the first minutes are normal — see section 5).
+6. **Builder mode** — if the device lacks the builder's account, unlock it with a service code (see section 7), and hand the boat over in customer mode afterwards.
+7. **Final restart** — restart the BBT Core and the Skydroid one last time and verify the boat connects immediately.
+
+When everything ticks off, the boat is ready for the customer.
