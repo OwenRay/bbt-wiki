@@ -119,8 +119,6 @@ Bij het instellen van de BBT Core bevat de tablet of Skydroid soms niet het bouw
 
 Een geldige servicecode ontgrendelt de volledige bouwersmodus (Real Builder). Servicecodes worden verstrekt door Baitboat — neem contact met ons op om er een aan te vragen. Bouwers kunnen de servicecode van vandaag ook in de app bekijken: deze wordt onder de knop **Servicecode** weergegeven zolang de bouwersmodus actief is.
 
-> **Opmerking:** start de BBT Core opnieuw op nadat u de bouwersmodus hebt ontgrendeld.
-
 ## 8. Checklist voor bootbouwers
 
 Loop deze checklist af voordat je een boot met Skydroid aan de klant overdraagt.

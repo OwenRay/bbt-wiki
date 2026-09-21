@@ -119,8 +119,6 @@ When setting up the BBT Core, the tablet or Skydroid sometimes does not contain 
 
 A valid service code unlocks full builder mode (Real Builder). Service codes are provided by Baitboat — contact us to request one. Builders can also view today's service code in the app: it is shown below the **Service Code** button while builder mode is active.
 
-> **Note:** restart the BBT Core after unlocking builder mode.
-
 ## 8. Checklist for Boatbuilders
 
 Run through this checklist before handing a Skydroid-equipped boat to the customer.

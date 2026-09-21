@@ -119,8 +119,6 @@ Lors de la configuration du BBT Core, la tablette ou le Skydroid ne contient par
 
 Un code de service valide déverrouille le mode constructeur complet (Real Builder). Les codes de service sont fournis par Baitboat — contactez-nous pour en demander un. Les constructeurs peuvent également consulter le code du jour dans l'application : il s'affiche sous le bouton **Code de service** tant que le mode constructeur est actif.
 
-> **Remarque :** redémarrez le BBT Core après avoir déverrouillé le mode constructeur.
-
 ## 8. Checklist pour les constructeurs
 
 Parcourez cette checklist avant de remettre un bateau équipé d'un Skydroid au client.

@@ -119,8 +119,6 @@ Bei der Einrichtung des BBT Core enthält das Tablet oder der Skydroid manchmal 
 
 Ein gültiger Servicecode schaltet den vollen Baumodus frei (Real Builder). Servicecodes werden von Baitboat bereitgestellt – kontaktieren Sie uns, um einen anzufordern. Wer den Baumodus aktiviert hat, kann den heutigen Servicecode auch in der App einsehen: Er wird unter dem Button **Servicecode** angezeigt, solange der Baumodus aktiv ist.
 
-> **Hinweis:** Starten Sie den BBT Core nach dem Freischalten des Baumodus neu.
-
 ## 8. Checkliste für Bootsbauer
 
 Gehen Sie diese Checkliste durch, bevor Sie ein Boot mit Skydroid an den Kunden übergeben.
