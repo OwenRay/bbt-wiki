@@ -13,6 +13,8 @@ page_id: bbt-core
 
 ![BBT Core – The Ultimate Baitboat Brain](assets/bbt_core_cover.png)
 
+> **Important:** whenever BBT Core settings are changed, the BBT Core must be restarted for the changes to take effect.
+
 ## Table of Contents
 
 - [1. Connecting the BBT Core](#1-connecting-the-bbt-core)
@@ -89,6 +91,8 @@ page_id: bbt-core
 
 The installation is complete.
 
+> **Note:** after changing BBT Core settings, restart the BBT Core.
+
 ## 5. Use
 
 > **Note:** during initial use, the Raymarine connection may briefly drop a few times. In most cases, the connection will automatically be restored within one second. This happens because the Skydroid protocol automatically searches for the most suitable bandwidth. During this search, the connection may be interrupted temporarily. Wait calmly until the connection remains stable.
@@ -114,6 +118,8 @@ When setting up the BBT Core, the tablet or Skydroid sometimes does not contain 
 4. Enter the service code and confirm.
 
 A valid service code unlocks full builder mode (Real Builder). Service codes are provided by Baitboat — contact us to request one. Builders can also view today's service code in the app: it is shown below the **Service Code** button while builder mode is active.
+
+> **Note:** restart the BBT Core after unlocking builder mode.
 
 ## 8. Checklist for Boatbuilders
 

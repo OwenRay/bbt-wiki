@@ -14,6 +14,8 @@ permalink: "/BBT Core.html"
 
 ![BBT Core – Het ultieme brein voor je baitboat](/assets/bbt_core_cover.png)
 
+> **Belangrijk:** wanneer BBT Core-instellingen worden gewijzigd, moet de BBT Core opnieuw worden gestart om de wijzigingen van kracht te laten worden.
+
 ## Inhoudsopgave
 
 - [1. De BBT Core aansluiten](#1-de-bbt-core-aansluiten)
@@ -89,6 +91,8 @@ permalink: "/BBT Core.html"
 
 De installatie is voltooid.
 
+> **Opmerking:** start de BBT Core opnieuw op nadat u BBT Core-instellingen hebt gewijzigd.
+
 ## 5. Gebruik
 
 > **Opmerking:** tijdens het eerste gebruik kan de Raymarine-verbinding af en toe kort wegvallen. In de meeste gevallen wordt de verbinding binnen één seconde automatisch hersteld. Dit komt doordat het Skydroid-protocol automatisch zoekt naar de meest geschikte bandbreedte. Tijdens dit zoeken kan de verbinding tijdelijk worden onderbroken. Wacht rustig tot de verbinding stabiel blijft.
@@ -114,6 +118,8 @@ Bij het instellen van de BBT Core bevat de tablet of Skydroid soms niet het bouw
 4. Voer de servicecode in en bevestig.
 
 Een geldige servicecode ontgrendelt de volledige bouwersmodus (Real Builder). Servicecodes worden verstrekt door Baitboat — neem contact met ons op om er een aan te vragen. Bouwers kunnen de servicecode van vandaag ook in de app bekijken: deze wordt onder de knop **Servicecode** weergegeven zolang de bouwersmodus actief is.
+
+> **Opmerking:** start de BBT Core opnieuw op nadat u de bouwersmodus hebt ontgrendeld.
 
 ## 8. Checklist voor bootbouwers
 

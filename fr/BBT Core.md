@@ -14,6 +14,8 @@ permalink: "/BBT Core.html"
 
 ![BBT Core – Le cerveau ultime du baitboat](/assets/bbt_core_cover.png)
 
+> **Important :** à chaque fois que les paramètres du BBT Core sont modifiés, le BBT Core doit être redémarré pour que les modifications prennent effet.
+
 ## Table des matières
 
 - [1. Connexion du BBT Core](#1-connexion-du-bbt-core)
@@ -89,6 +91,8 @@ permalink: "/BBT Core.html"
 
 L'installation est terminée.
 
+> **Remarque :** après avoir modifié les paramètres du BBT Core, redémarrez le BBT Core.
+
 ## 5. Utilisation
 
 > **Remarque :** lors de la première utilisation, la connexion Raymarine peut être interrompue brièvement à quelques reprises. Dans la plupart des cas, la connexion est rétablie automatiquement en moins d'une seconde. Cela se produit parce que le protocole Skydroid recherche automatiquement la bande passante la plus adaptée. Pendant cette recherche, la connexion peut être temporairement interrompue. Attendez calmement que la connexion redevienne stable.
@@ -114,6 +118,8 @@ Lors de la configuration du BBT Core, la tablette ou le Skydroid ne contient par
 4. Saisissez le code de service et confirmez.
 
 Un code de service valide déverrouille le mode constructeur complet (Real Builder). Les codes de service sont fournis par Baitboat — contactez-nous pour en demander un. Les constructeurs peuvent également consulter le code du jour dans l'application : il s'affiche sous le bouton **Code de service** tant que le mode constructeur est actif.
+
+> **Remarque :** redémarrez le BBT Core après avoir déverrouillé le mode constructeur.
 
 ## 8. Checklist pour les constructeurs
 

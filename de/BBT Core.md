@@ -14,6 +14,8 @@ permalink: "/BBT Core.html"
 
 ![BBT Core – Das ultimative Baitboat-Gehirn](/assets/bbt_core_cover.png)
 
+> **Wichtig:** Immer wenn BBT-Core-Einstellungen geändert werden, muss der BBT Core neu gestartet werden, damit die Änderungen wirksam werden.
+
 ## Inhaltsverzeichnis
 
 - [1. Anschließen des BBT Core](#1-anschließen-des-bbt-core)
@@ -89,6 +91,8 @@ permalink: "/BBT Core.html"
 
 Die Installation ist abgeschlossen.
 
+> **Hinweis:** Starten Sie den BBT Core nach dem Ändern von BBT-Core-Einstellungen neu.
+
 ## 5. Nutzung
 
 > **Hinweis:** Während der ersten Nutzung kann die Raymarine-Verbindung kurzzeitig einige Male abbrechen. In den meisten Fällen wird die Verbindung innerhalb einer Sekunde automatisch wiederhergestellt. Das liegt daran, dass das Skydroid-Protokoll automatisch nach der am besten geeigneten Bandbreite sucht. Während dieser Suche kann die Verbindung vorübergehend unterbrochen werden. Warten Sie ruhig, bis die Verbindung stabil bleibt.
@@ -114,6 +118,8 @@ Bei der Einrichtung des BBT Core enthält das Tablet oder der Skydroid manchmal 
 4. Geben Sie den Servicecode ein und bestätigen Sie.
 
 Ein gültiger Servicecode schaltet den vollen Baumodus frei (Real Builder). Servicecodes werden von Baitboat bereitgestellt – kontaktieren Sie uns, um einen anzufordern. Wer den Baumodus aktiviert hat, kann den heutigen Servicecode auch in der App einsehen: Er wird unter dem Button **Servicecode** angezeigt, solange der Baumodus aktiv ist.
+
+> **Hinweis:** Starten Sie den BBT Core nach dem Freischalten des Baumodus neu.
 
 ## 8. Checkliste für Bootsbauer
 
